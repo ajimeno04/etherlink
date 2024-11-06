@@ -63,6 +63,8 @@ export enum SafeAppsTag {
   SAFE_GOVERNANCE_APP = 'safe-governance-app',
   ONRAMP = 'onramp',
   RECOVERY_SYGNUM = 'recovery-sygnum',
+  DASHBOARD_FEATURED = 'dashboard-widgets',
+  WALLET_CONNECT = 'wallet-connect',
 }
 
 // Help Center
