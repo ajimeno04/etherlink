@@ -36,19 +36,24 @@
   align-items: flex-start;
 }
 
+.logo {
+  display: flex;
+}
 .logo svg {
   width: 130px !important;
 }
 .logoMobile {
-  display: none;
+  visibility: hidden;
+  position: absolute;
+}
+.logoMobile svg {
+  height: 35px !important;
 }
 
 .logo svg,
 .logoMobile svg {
   width: auto;
-  display: block;
   color: var(--color-logo-main);
-  height: 70px;
 }
 
 .logo {
@@ -69,10 +74,13 @@
 
 @media (max-width: 899.95px) {
   .logo {
+    visibility: hidden;
     display: none;
   }
 
   .logoMobile {
+    position: relative;
+    visibility: visible;
     display: flex;
     flex: 1;
     border: none;
