@@ -62,36 +62,28 @@ const SidebarFooter = (): ReactElement => {
         </ListItem>
       </Track> */}
 
-      <Track {...OVERVIEW_EVENTS.HELP_CENTER}>
-        <ListItem disablePadding>
-          <a target="_blank" rel="noopener noreferrer" href={HELP_CENTER_URL} style={{ width: '100%' }}>
-            <SidebarListItemButton>
-              <SidebarListItemIcon color="primary">
-                <HelpCenterIcon />
-              </SidebarListItemIcon>
-              <SidebarListItemText data-testid="list-item-need-help" bold>
-                Need help?
-              </SidebarListItemText>
-            </SidebarListItemButton>
-          </a>
-        </ListItem>
-      </Track>
-      <Track {...OVERVIEW_EVENTS.SUGGESTIONS}>
-        <ListItem disablePadding>
-          <a target="_blank" rel="noopener noreferrer" href={NEW_SUGGESTION_FORM} style={{ width: '100%' }}>
-            <SidebarListItemButton
-              id={BEAMER_SELECTOR}
-              style={{ backgroundColor: '#12FF80', color: 'black' }}
-              onClick={handleBeamer}
-            >
-              <SidebarListItemIcon color="primary">
-                <SuggestionIcon />
-              </SidebarListItemIcon>
-              <SidebarListItemText bold>New Features Suggestion?</SidebarListItemText>
-            </SidebarListItemButton>
-          </a>
-        </ListItem>
-      </Track>
+      <ListItem disablePadding>
+        <a target="_blank" rel="noopener noreferrer" href={HELP_CENTER_URL} style={{ width: '100%' }}>
+          <SidebarListItemButton>
+            <SidebarListItemIcon color="primary">
+              <HelpCenterIcon />
+            </SidebarListItemIcon>
+            <SidebarListItemText data-testid="list-item-need-help" bold>
+              Need help?
+            </SidebarListItemText>
+          </SidebarListItemButton>
+        </a>
+      </ListItem>
+      <ListItem disablePadding>
+        <a target="_blank" rel="noopener noreferrer" href={NEW_SUGGESTION_FORM} style={{ width: '100%' }}>
+          <SidebarListItemButton style={{ backgroundColor: '#12FF80', color: 'black' }} onClick={handleBeamer}>
+            <SidebarListItemIcon color="primary">
+              <SuggestionIcon />
+            </SidebarListItemIcon>
+            <SidebarListItemText bold>New Features Suggestion?</SidebarListItemText>
+          </SidebarListItemButton>
+        </a>
+      </ListItem>
       <ListItem>
         <SidebarListItemText>
           <Typography variant="caption">
