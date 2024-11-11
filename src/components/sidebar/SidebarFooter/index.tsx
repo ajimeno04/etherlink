@@ -7,7 +7,7 @@ import {
   SidebarListItemIcon,
   SidebarListItemText,
 } from '@/components/sidebar/SidebarList'
-import { BEAMER_SELECTOR, loadBeamer } from '@/services/beamer'
+import { loadBeamer } from '@/services/beamer'
 import { useAppDispatch, useAppSelector } from '@/store'
 import { CookieAndTermType, hasConsentFor } from '@/store/cookiesAndTermsSlice'
 import { openCookieBanner } from '@/store/popupSlice'
@@ -16,8 +16,6 @@ import HelpCenterIcon from '@/public/images/sidebar/help-center.svg'
 import { Link, ListItem, SvgIcon, Typography } from '@mui/material'
 import DebugToggle from '../DebugToggle'
 import { HELP_CENTER_URL, IS_PRODUCTION, NEW_SUGGESTION_FORM } from '@/config/constants'
-import Track from '@/components/common/Track'
-import { OVERVIEW_EVENTS } from '@/services/analytics/events/overview'
 import { useCurrentChain } from '@/hooks/useChains'
 import darkPalette from '@/components/theme/darkPalette'
 import SuggestionIcon from '@/public/images/sidebar/lightbulb_icon.svg'
