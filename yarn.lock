@@ -4230,15 +4230,10 @@
   dependencies:
     semver "^7.6.2"
 
-"@safe-global/safe-gateway-typescript-sdk@3.22.3-beta.15":
-  version "3.22.3-beta.15"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.22.3-beta.15.tgz#83c7e784b7ee0d08104c2f1b7dc99f6cdc950683"
-  integrity sha512-6vAKyGualYDde0zpNaigDY9H7EMpccWPov9hw/itBwY+7JReWGYO2DC0yma48bqDyeipsAkrhvHBNx5TF2zY4Q==
-
-"@safe-global/safe-gateway-typescript-sdk@^3.5.3":
-  version "3.21.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.21.2.tgz#2123a7429c2d9713365f51c359bfc055d4c8e913"
-  integrity sha512-N9Y2CKPBVbc8FbOKzqepy8TJUY2VILX7bmxV4ruByLJvR9PBnGvGfnOhw975cDn6PmSziXL0RaUWHpSW23rsng==
+"@safe-global/safe-gateway-typescript-sdk@3.22.6", "@safe-global/safe-gateway-typescript-sdk@^3.5.3":
+  version "3.22.6"
+  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.22.6.tgz#3a4961d129fefc7b9eb75e34b7660863580649ff"
+  integrity sha512-R0Ck7n8fj7KtFUpbsGi0j3e2t0/bhpHTY/U8P8315vQ8aT/sfZrWMcfFcD5I9Kw8TEU7rvKY0+sngT1lCptJmQ==
 
 "@safe-global/safe-modules-deployments@^2.2.1":
   version "2.2.1"
